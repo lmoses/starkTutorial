@@ -1,6 +1,8 @@
 <html>
 <head>
-  <link rel="stylesheet" href="screen.css" type="text/css" />
+  <link rel="stylesheet"  type="text/css" href="iphone.css" media="only screen and (max-width: 480px)" />
+  <link rel="stylesheet"  type="text/css" href="desktop.css" media="only screen and (min-width: 481px)" />
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
   <title>Mr. Moses</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
   </div>
   <div id="sidebar">
     <img alt="Manga Portrait of Mr. Moses" 
-         src="images/manga.png"
+         src="images/manga.jpg">
     <p>Mr. Moses is a mobile and web application developer who the
        Baller Street Journal has called an expert on publishing desktop 
        data to the web.</p>
